@@ -7,11 +7,23 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      background: "#1F0B0B",
+      foreground: "#FFFFFF",
+    },
+    borderWidth: {
+      DEFAULT: "1px",
+      "0": "0",
+      "2": "2px",
+      "3": "3px",
+      "4": "4px",
+      "6": "6px",
+      "8": "8px",
+      "16": "16px",
+    },
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "hero-background": "url('/images/hero-background.jpg')",
       },
     },
   },
