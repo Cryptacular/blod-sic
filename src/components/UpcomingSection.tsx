@@ -36,7 +36,11 @@ export default function UpcomingSection() {
           </div>
 
           <div className="text-center">
-            <Button variant="dark" href="#">
+            <Button
+              variant="dark"
+              openInNewTab
+              href="https://distrokid.com/hyperfollow/blodsic/wight"
+            >
               pre-save now!
             </Button>
           </div>
