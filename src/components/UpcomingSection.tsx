@@ -6,7 +6,7 @@ export default function UpcomingSection() {
   return (
     <div className="p-12 pt-20 bg-foreground text-background">
       <ResponsiveContainer>
-        <div className="flex flex-col gap-10">
+        <div className="flex flex-col gap-16">
           <h2 className="text-4xl text-center font-bold">
             <a id="wight" />
             new single ‘wight’ out soon!
@@ -27,7 +27,7 @@ export default function UpcomingSection() {
             </div>
 
             <Image
-              src="/images/wight.png"
+              src="/images/albums/wight.png"
               alt="wight single artwork"
               width={272}
               height={272}
