@@ -6,6 +6,7 @@ import {
   SiBandcamp,
   SiSoundcloud,
   SiInstagram,
+  SiApplemusic,
 } from "react-icons/si";
 
 const socials: SocialProps[] = [
@@ -33,6 +34,11 @@ const socials: SocialProps[] = [
     name: "SoundCloud",
     url: "https://soundcloud.com/blod-sic",
     icon: SiSoundcloud,
+  },
+  {
+    name: "Apple Music",
+    url: "https://music.apple.com/nz/artist/blod-sic/1632780047",
+    icon: SiApplemusic,
   },
   {
     name: "Instagram",
