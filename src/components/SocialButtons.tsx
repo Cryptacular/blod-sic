@@ -52,7 +52,7 @@ export default function SocialButtons() {
     <div className="flex flex-row gap-4">
       {socials.map((s) => (
         <a key={s.name} href={s.url} target="_blank">
-          {s.icon({ size: 24 })}
+          {s.icon({ size: 24, "aria-label": s.name })}
         </a>
       ))}
     </div>
