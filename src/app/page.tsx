@@ -2,6 +2,8 @@ import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import UpcomingSection from "@/components/UpcomingSection";
 import MusicVideosSection from "@/components/MusicVideosSection";
+import Divider from "@/components/Divider";
+import DiscographySection from "@/components/DiscographySection";
 
 export default function Home() {
   return (
@@ -9,8 +11,9 @@ export default function Home() {
       <Navigation />
       <HeroSection />
       <UpcomingSection />
+      <DiscographySection />
+      <Divider />
       <MusicVideosSection />
-      {/* <DiscographySection /> */}
       {/* <ContactSection /> */}
     </main>
   );
