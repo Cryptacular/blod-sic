@@ -10,6 +10,8 @@ const config: Config = {
     colors: {
       background: "#1F0B0B",
       foreground: "#FFFFFF",
+      error: "#c00000",
+      success: "#FFFFFF",
     },
     borderWidth: {
       DEFAULT: "1px",

@@ -1,20 +1,15 @@
-import { ReactNode } from "react";
+import { AnchorHTMLAttributes, ButtonHTMLAttributes, ReactNode } from "react";
 
-interface Props {
+type BaseProps = {
   children: ReactNode;
   variant?: "light" | "dark";
-  href?: string;
-  openInNewTab?: boolean;
-  onClick?: () => void | Promise<void>;
-}
+};
 
-export default function Button({
-  children,
-  variant,
-  href,
-  openInNewTab,
-  onClick,
-}: Props) {
+type Props =
+  | (AnchorHTMLAttributes<HTMLAnchorElement> & BaseProps)
+  | (ButtonHTMLAttributes<HTMLButtonElement> & BaseProps);
+
+export default function Button({ children, variant, type, ...props }: Props) {
   const basicClasses: HTMLAnchorElement["className"] =
     "text-xl text-center px-6 py-4 font-bold";
   const variantClasses =
@@ -22,14 +17,21 @@ export default function Button({
       ? "text-foreground bg-background"
       : "text-background bg-foreground";
 
+  const className = [basicClasses, variantClasses, props.className || ""]
+    .join(" ")
+    .trim();
+
+  if ("href" in props) {
+    return (
+      <a {...props} className={className}>
+        {children}
+      </a>
+    );
+  }
+
   return (
-    <a
-      className={[basicClasses, variantClasses].join(" ").trim()}
-      href={href}
-      onClick={onClick}
-      target={openInNewTab ? "_blank" : "_self"}
-    >
+    <button {...(props as any)} className={className}>
       {children}
-    </a>
+    </button>
   );
 }

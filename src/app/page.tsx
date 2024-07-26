@@ -4,6 +4,7 @@ import UpcomingSection from "@/components/UpcomingSection";
 import MusicVideosSection from "@/components/MusicVideosSection";
 import Divider from "@/components/Divider";
 import DiscographySection from "@/components/DiscographySection";
+import ContactSection from "@/components/ContactSection";
 
 export default function Home() {
   return (
@@ -14,7 +15,8 @@ export default function Home() {
       <DiscographySection />
       <Divider />
       <MusicVideosSection />
-      {/* <ContactSection /> */}
+      <Divider />
+      <ContactSection />
     </main>
   );
 }

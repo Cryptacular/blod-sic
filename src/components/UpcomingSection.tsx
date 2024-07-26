@@ -12,7 +12,7 @@ export default function UpcomingSection() {
             new single ‘wight’ out soon!
           </h2>
 
-          <div className="flex flex-col md:flex-row gap-10 items-center justify-center">
+          <div className="flex flex-col md:flex-row gap-16 items-center justify-around">
             <div className="flex flex-col gap-6 max-w-96">
               <p>
                 blod [sic]’s latest single “wight” releases on 23 August 2024. A
@@ -38,7 +38,7 @@ export default function UpcomingSection() {
           <div className="text-center">
             <Button
               variant="dark"
-              openInNewTab
+              target="_blank"
               href="https://distrokid.com/hyperfollow/blodsic/wight"
             >
               pre-save now!
