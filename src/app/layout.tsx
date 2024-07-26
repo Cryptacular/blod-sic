@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import { Jost } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
 
 const jost = Jost({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://blodsic.com"),
   title:
     "blod [sic] — dark lo-fi, horrorwave, ghostwave, dark electronica — auckland, new zealand",
   description:
@@ -43,7 +45,10 @@ export default function RootLayout({
         <meta name="theme-color" content="#ffffff" />
       </Head>
       <body className={`${jost.className} bg-background text-foreground`}>
-        {children}
+        <main className="flex flex-1 min-h-screen flex-col items-stretch">
+          {children}
+        </main>
+        <Analytics />
       </body>
     </html>
   );
