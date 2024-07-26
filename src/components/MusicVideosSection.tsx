@@ -36,15 +36,15 @@ const musicVideos: MusicVideo[] = [
 
 export default function MusicVideosSection() {
   return (
-    <div className="p-12 pt-20">
+    <div className="p-4 pt-6 md:p-12 md:pt-20">
       <ResponsiveContainer>
         <div className="flex flex-col gap-16">
           <h2 className="text-4xl text-center font-bold">
-            <a id="musicvideos" />
+            <a id="music-videos" />
             music videos
           </h2>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4  gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4  gap-8">
             {musicVideos.map((mv) => (
               <div
                 key={mv.name}

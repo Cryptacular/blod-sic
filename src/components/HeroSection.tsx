@@ -4,7 +4,7 @@ import SocialButtons from "./SocialButtons";
 
 export default function HeroSection() {
   return (
-    <div className="bg-hero-background bg-cover bg-center p-12 pt-20">
+    <div className="bg-hero-background bg-cover bg-center p-4 pt-20 md:p-12  md:pt-20">
       <ResponsiveContainer>
         <div className="flex w-full flex-col md:flex-row gap-10 items-center justify-between text-center md:text-left">
           <div className="flex flex-col gap-6">

@@ -49,7 +49,7 @@ const socials: SocialProps[] = [
 
 export default function SocialButtons() {
   return (
-    <div className="flex flex-row gap-4">
+    <div className="flex flex-row gap-4 flex-wrap">
       {socials.map((s) => (
         <a key={s.name} href={s.url} target="_blank">
           {s.icon({ size: 24, "aria-label": s.name })}

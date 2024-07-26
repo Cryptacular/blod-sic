@@ -96,7 +96,7 @@ const albums: Album[] = [
 
 export default function DiscographySection() {
   return (
-    <div className="p-12 pt-20">
+    <div className="p-4 pt-6 md:p-12 md:pt-20">
       <ResponsiveContainer>
         <div className="flex flex-col gap-16">
           <h2 className="text-4xl text-center font-bold">
@@ -104,7 +104,7 @@ export default function DiscographySection() {
             discography
           </h2>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4  gap-16">
+          <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4  gap-16">
             {albums.map((a) => (
               <div
                 key={a.name}
@@ -120,7 +120,7 @@ export default function DiscographySection() {
                   />
                 </a>
                 {a.name}
-                <div className="flex flex-row gap-4">
+                <div className="flex flex-row flex-wrap gap-4">
                   {a.urls.bandcamp ? (
                     <a href={a.urls.bandcamp} target="_blank">
                       <SiBandcamp aria-label={`Bandcamp link for ${a.name}`} />

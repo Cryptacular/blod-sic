@@ -30,7 +30,7 @@ export default function ContactForm({ onSubmit }: Props) {
   };
 
   return (
-    <div className="flex flex-col gap-6 w-96">
+    <div className="flex flex-col gap-6 max-w-96 w-full">
       {hasSuccessfullySentMessage ? (
         <div className="bg-success text-background p-3">
           Thanks! Keep an eye on your inbox and I&rsquo;ll be in touch soon.{" "}

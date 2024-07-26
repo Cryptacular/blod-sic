@@ -4,7 +4,7 @@ import Button from "./Button";
 
 export default function UpcomingSection() {
   return (
-    <div className="p-12 pt-20 bg-foreground text-background">
+    <div className="p-4 pt-6 md:p-12 md:pt-20 bg-foreground text-background">
       <ResponsiveContainer>
         <div className="flex flex-col gap-16">
           <h2 className="text-4xl text-center font-bold">

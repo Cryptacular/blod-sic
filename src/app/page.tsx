@@ -8,8 +8,10 @@ import ContactSection from "@/components/ContactSection";
 
 export default function Home() {
   return (
-    <main className="flex flex-1 min-h-screen flex-col items-stretch">
-      <Navigation />
+    <>
+      <Navigation
+        menuItems={["wight", "discography", "music videos", "contact"]}
+      />
       <HeroSection />
       <UpcomingSection />
       <DiscographySection />
@@ -17,6 +19,6 @@ export default function Home() {
       <MusicVideosSection />
       <Divider />
       <ContactSection />
-    </main>
+    </>
   );
 }
