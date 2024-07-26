@@ -6,7 +6,7 @@ export default function Navigation() {
     <div className="w-full bg-background/20 absolute md:fixed top-0">
       <ResponsiveContainer>
         <div className="flex flex-row items-center justify-center md:justify-between">
-          <a href="/">
+          <a href="#">
             <h1 className="flex flex-row gap-4 items-center">
               <Image
                 src="/images/blod-sic-logo-white.svg"
