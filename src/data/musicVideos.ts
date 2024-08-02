@@ -2,7 +2,7 @@ import { MusicVideo } from "@/models/MusicVideo";
 
 const musicVideos: MusicVideo[] = [
   {
-    name: "wight (releasing 23 Aug)",
+    name: "wight",
     url: "https://www.youtube.com/watch?v=8v3P8F63H_4",
     thumbnailUrl: "/images/videos/wight.webp",
   },
