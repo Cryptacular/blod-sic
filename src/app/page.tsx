@@ -1,6 +1,6 @@
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
-import UpcomingSection from "@/components/UpcomingSection";
+import WightOutNowSection from "@/components/WightOutNowSection";
 import MusicVideosSection from "@/components/MusicVideosSection";
 import Divider from "@/components/Divider";
 import DiscographySection from "@/components/DiscographySection";
@@ -13,7 +13,7 @@ export default function Home() {
         menuItems={["wight", "discography", "music videos", "contact"]}
       />
       <HeroSection />
-      <UpcomingSection />
+      <WightOutNowSection />
       <DiscographySection />
       <Divider />
       <MusicVideosSection />
