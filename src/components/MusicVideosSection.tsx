@@ -8,6 +8,11 @@ const musicVideos: MusicVideo[] = [
     thumbnailUrl: "/images/videos/wight.webp",
   },
   {
+    name: "dark ambient jam",
+    url: "https://www.youtube.com/watch?v=PT9G4R0mc0g",
+    thumbnailUrl: "/images/videos/dark-ambient-jam.webp",
+  },
+  {
     name: "live looper jam",
     url: "https://www.youtube.com/watch?v=qlmwMmRSR1E",
     thumbnailUrl: "/images/videos/looper-jam.webp",
@@ -57,6 +62,7 @@ export default function MusicVideosSection() {
                     height={188 / 2}
                     alt={`${mv.name} thumbnail`}
                     className="border-solid border-8 border-foreground"
+                    unoptimized
                   />
                 </a>
                 <a href={mv.url} target="_blank">
