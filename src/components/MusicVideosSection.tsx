@@ -25,6 +25,7 @@ export default function MusicVideosSection() {
                     height={188 / 2}
                     alt={`${mv.name} thumbnail`}
                     className="border-solid border-8 border-foreground"
+                    unoptimized
                   />
                 </a>
                 <a href={mv.url} target="_blank">
