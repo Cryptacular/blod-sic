@@ -7,7 +7,7 @@ const album = albums.find((a) => a.id === "wight");
 
 export default function WightOutNowSection() {
   if (!album) {
-    console.error("Album not found!");
+    console.error("Album 'wight' not found!");
     return <></>;
   }
 

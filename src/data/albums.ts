@@ -6,6 +6,10 @@ const albums: Album[] = [
     name: "wight",
     urls: {
       bandcamp: "https://blodsic.bandcamp.com/track/wight",
+      spotify:
+        "https://open.spotify.com/track/1HKJVvFQ6LK18gqMV9pXPM?si=a16d6005e836482f",
+      ytMusic:
+        "https://music.youtube.com/playlist?list=OLAK5uy_nJh4qxz7Nx6Ap7F7s2VGNNPxd728Pu1XY&si=WxO5VW9QPVjHTQFP",
       soundcloud: "https://soundcloud.com/blod-sic/wight",
     },
     thumbnailUrl: "/images/albums/wight.png",
