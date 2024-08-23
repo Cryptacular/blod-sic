@@ -4,7 +4,7 @@ import DiscographySection from "@/components/DiscographySection";
 import Divider from "@/components/Divider";
 import MusicVideosSection from "@/components/MusicVideosSection";
 import Navigation from "@/components/Navigation";
-import UpcomingSection from "@/components/UpcomingSection";
+import WightOutNowSection from "@/components/WightOutNowSection";
 import AboutBlodSicSection from "@/components/electronic-press-kit/AboutBlodSicSection";
 
 export const metadata: Metadata = {
@@ -28,7 +28,7 @@ export default function Home() {
         ]}
       />
       <AboutBlodSicSection />
-      <UpcomingSection />
+      <WightOutNowSection />
       <DiscographySection />
       <Divider />
       <MusicVideosSection />
