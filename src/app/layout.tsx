@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Jost } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
+import { Suspense } from "react";
+import GoogleTagManager from "@/components/analytics/GoogleTagManager";
 
 const jost = Jost({ subsets: ["latin"] });
 
@@ -41,7 +43,11 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ab0000" />
         <meta name="msapplication-TileColor" content="#2d89ef" />
-        <meta name="theme-color" content="#ffffff" />
+        <meta name="theme-color" content="#82021b" />
+
+        <Suspense>
+          <GoogleTagManager />
+        </Suspense>
       </head>
       <body className={`${jost.className} bg-background text-foreground`}>
         <main className="flex flex-1 min-h-screen flex-col items-stretch">
