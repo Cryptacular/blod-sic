@@ -7,6 +7,7 @@ import {
   SiSoundcloud,
   SiInstagram,
   SiApplemusic,
+  SiFacebook,
 } from "react-icons/si";
 
 const socials: SocialProps[] = [
@@ -44,6 +45,11 @@ const socials: SocialProps[] = [
     name: "Instagram",
     url: "https://www.instagram.com/blodsic/",
     icon: SiInstagram,
+  },
+  {
+    name: "Facebook",
+    url: "https://www.facebook.com/profile.php?id=61567362156865",
+    icon: SiFacebook,
   },
 ];
 
