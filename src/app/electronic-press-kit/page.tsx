@@ -4,8 +4,8 @@ import DiscographySection from "@/components/DiscographySection";
 import Divider from "@/components/Divider";
 import MusicVideosSection from "@/components/MusicVideosSection";
 import Navigation from "@/components/Navigation";
-import WightOutNowSection from "@/components/WightOutNowSection";
 import AboutBlodSicSection from "@/components/electronic-press-kit/AboutBlodSicSection";
+import UpcomingSection from "@/components/UpcomingSection";
 
 export const metadata: Metadata = {
   title: "blod [sic] — electronic press kit",
@@ -21,14 +21,14 @@ export default function Home() {
           "about",
           "links",
           "photos",
-          "wight",
+          "division",
           "discography",
           "music-videos",
           "contact",
         ]}
       />
       <AboutBlodSicSection />
-      <WightOutNowSection />
+      <UpcomingSection />
       <DiscographySection />
       <Divider />
       <MusicVideosSection />
