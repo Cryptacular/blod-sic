@@ -1,19 +1,19 @@
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
-import WightOutNowSection from "@/components/WightOutNowSection";
 import MusicVideosSection from "@/components/MusicVideosSection";
 import Divider from "@/components/Divider";
 import DiscographySection from "@/components/DiscographySection";
 import ContactSection from "@/components/ContactSection";
+import UpcomingSection from "@/components/UpcomingSection";
 
 export default function Home() {
   return (
     <>
       <Navigation
-        menuItems={["wight", "discography", "music videos", "contact"]}
+        menuItems={["division", "discography", "music videos", "contact"]}
       />
       <HeroSection />
-      <WightOutNowSection />
+      <UpcomingSection />
       <DiscographySection />
       <Divider />
       <MusicVideosSection />

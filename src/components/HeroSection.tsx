@@ -10,7 +10,7 @@ export default function HeroSection() {
           <div className="flex flex-col gap-6">
             <h1 className="text-6xl font-bold">blod [sic]</h1>
             <p className="text-2xl">
-              dark lo-fi | horrorwave | dark electronica | ghostwave
+              horrorwave | dark electronica | ghostwave
             </p>
             <p className="text-2xl">auckland, new zealand</p>
             <div className="flex justify-center md:justify-start">
