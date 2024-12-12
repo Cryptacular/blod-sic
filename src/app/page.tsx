@@ -4,7 +4,7 @@ import MusicVideosSection from "@/components/MusicVideosSection";
 import Divider from "@/components/Divider";
 import DiscographySection from "@/components/DiscographySection";
 import ContactSection from "@/components/ContactSection";
-import UpcomingSection from "@/components/UpcomingSection";
+import DivisionOutNowSection from "@/components/DivisionOutNowSection";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
         menuItems={["division", "discography", "music videos", "contact"]}
       />
       <HeroSection />
-      <UpcomingSection />
+      <DivisionOutNowSection />
       <DiscographySection />
       <Divider />
       <MusicVideosSection />

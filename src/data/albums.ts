@@ -3,7 +3,7 @@ import { Album } from "@/models/Album";
 const albums: Album[] = [
   {
     id: "division",
-    name: "division (releasing 13 Dec)",
+    name: "division",
     urls: {
       bandcamp: "https://blodsic.bandcamp.com/album/division",
     },
