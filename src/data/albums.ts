@@ -6,6 +6,11 @@ const albums: Album[] = [
     name: "division",
     urls: {
       bandcamp: "https://blodsic.bandcamp.com/album/division",
+      spotify:
+        "https://open.spotify.com/album/6Blv0PorzCjp097KUHtp97?si=I4d1N4zqTWaeE5zSPbI5cA",
+      ytMusic:
+        "https://music.youtube.com/playlist?list=OLAK5uy_lW5qu0CrKPiwh4WPNvULsCi7wrRYIBaWc&si=ev5o44F7C4Ro0m8n",
+      appleMusic: "https://music.apple.com/us/album/division-single/1779491485",
     },
     thumbnailUrl: "/images/albums/division.png",
   },
