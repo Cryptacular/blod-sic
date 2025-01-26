@@ -1,4 +1,4 @@
-import { IconType } from "react-icons";
+import { IconBaseProps, IconType } from "react-icons";
 import {
   SiSpotify,
   SiYoutubemusic,
@@ -8,6 +8,7 @@ import {
   SiInstagram,
   SiApplemusic,
   SiFacebook,
+  SiBluesky,
 } from "react-icons/si";
 
 const socials: SocialProps[] = [
@@ -40,6 +41,11 @@ const socials: SocialProps[] = [
     name: "Apple Music",
     url: "https://music.apple.com/nz/artist/blod-sic/1632780047",
     icon: SiApplemusic,
+  },
+  {
+    name: "Bluesky",
+    url: "https://bsky.app/profile/blodsic.bsky.social",
+    icon: SiBluesky,
   },
   {
     name: "Instagram",
