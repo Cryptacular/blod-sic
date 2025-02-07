@@ -4,4 +4,5 @@ export interface AlbumUrls {
   ytMusic?: string;
   appleMusic?: string;
   soundcloud?: string;
+  youtube?: string;
 }

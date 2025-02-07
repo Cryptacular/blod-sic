@@ -10,7 +10,9 @@ const albums: Album[] = [
         "https://open.spotify.com/album/6Blv0PorzCjp097KUHtp97?si=I4d1N4zqTWaeE5zSPbI5cA",
       ytMusic:
         "https://music.youtube.com/playlist?list=OLAK5uy_lW5qu0CrKPiwh4WPNvULsCi7wrRYIBaWc&si=ev5o44F7C4Ro0m8n",
+      youtube: "https://youtu.be/tgAU2Vk7b4s?si=i_Gw3pWEh_7B6Uly",
       appleMusic: "https://music.apple.com/us/album/division-single/1779491485",
+      soundcloud: "https://soundcloud.com/blod-sic/inversion",
     },
     thumbnailUrl: "/images/albums/division.png",
   },
@@ -25,6 +27,7 @@ const albums: Album[] = [
         "https://music.youtube.com/playlist?list=OLAK5uy_nJh4qxz7Nx6Ap7F7s2VGNNPxd728Pu1XY&si=WxO5VW9QPVjHTQFP",
       appleMusic: "https://music.apple.com/nz/album/wight-single/1756174334",
       soundcloud: "https://soundcloud.com/blod-sic/wight",
+      youtube: "https://youtu.be/8v3P8F63H_4?si=-0Gzesa_ZJQBcomf",
     },
     thumbnailUrl: "/images/albums/wight.png",
   },
@@ -37,6 +40,7 @@ const albums: Album[] = [
         "https://open.spotify.com/album/59RU7F8lnG0pg04H0SThP7?si=2IbsRZbgSqi49Mpq2P2HRQ",
       ytMusic:
         "https://music.youtube.com/playlist?list=OLAK5uy_kJTesadK2dybMjcmt9NybN1_C6zIxdXCY&si=4wj6VHI7yvoJTCe-",
+      youtube: "https://youtu.be/66tszsiHz2w?si=7ptOjwvjA0xZ1q6t",
       appleMusic:
         "https://music.apple.com/nz/album/punctured-single/1740529276",
       soundcloud:
@@ -53,6 +57,7 @@ const albums: Album[] = [
         "https://open.spotify.com/album/3yerzJkbCi7Cgnl2dszzQc?si=5fNlV_u0TOqIGvGAmmYhew",
       ytMusic:
         "https://music.youtube.com/playlist?list=OLAK5uy_mC5syRcc9GoU1vlqkaU0m-UKOFn_A-1mU&si=WmAZeB4ZbElgtn9u",
+      youtube: "https://youtu.be/uhjPmEOVTwA?si=FbHRzKWU6kLRUhf3",
       appleMusic:
         "https://music.apple.com/nz/album/the-dead-of-night-single/1722563406",
       soundcloud:
@@ -69,6 +74,7 @@ const albums: Album[] = [
         "https://open.spotify.com/album/1bhlH9hHineRQSu3GKEjjN?si=JuxPsa-qTiGSIHefqkwZzw",
       ytMusic:
         "https://music.youtube.com/playlist?list=OLAK5uy_n5bJZdVxuZFApMErZuNVjnNjOZ6WsFbp8&si=vh7KxiLgBTjDJR3l",
+      youtube: "https://youtu.be/2N-rKjPPKOE?si=ohWpTPCDzBaPt-wT",
       appleMusic: "https://music.apple.com/nz/album/bane-single/1718244410",
       soundcloud:
         "https://soundcloud.com/blod-sic/bane?si=afb30d8a05304305b70e6c5e9557f4b3&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",

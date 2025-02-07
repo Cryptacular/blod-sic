@@ -5,6 +5,7 @@ import {
   SiYoutubemusic,
   SiApplemusic,
   SiSoundcloud,
+  SiYoutube,
 } from "react-icons/si";
 
 interface Props {
@@ -13,7 +14,7 @@ interface Props {
 }
 
 export default function AlbumIconLinks({ album, size = "small" }: Props) {
-  const iconSize = size === "large" ? 48 : 16;
+  const iconSize = size === "large" ? 48 : 18;
   const gapSize = size === "large" ? 8 : 4;
 
   return (
@@ -38,6 +39,14 @@ export default function AlbumIconLinks({ album, size = "small" }: Props) {
         <a href={album.urls.ytMusic} target="_blank">
           <SiYoutubemusic
             aria-label={`YouTube Music link for ${album.name}`}
+            size={iconSize}
+          />
+        </a>
+      ) : null}
+      {album.urls.youtube ? (
+        <a href={album.urls.youtube} target="_blank">
+          <SiYoutube
+            aria-label={`YouTube link for ${album.name}`}
             size={iconSize}
           />
         </a>
