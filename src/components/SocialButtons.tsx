@@ -1,4 +1,4 @@
-import { IconBaseProps, IconType } from "react-icons";
+import { IconType } from "react-icons";
 import {
   SiSpotify,
   SiYoutubemusic,
@@ -12,6 +12,11 @@ import {
 } from "react-icons/si";
 
 const socials: SocialProps[] = [
+  {
+    name: "Bandcamp",
+    url: "https://blodsic.bandcamp.com/",
+    icon: SiBandcamp,
+  },
   {
     name: "Spotify",
     url: "https://open.spotify.com/artist/73T1x6IyH2NEm4lKew8gzk?si=qqjvqeMDSmajCkleNEg9SQ",
@@ -28,19 +33,14 @@ const socials: SocialProps[] = [
     icon: SiYoutube,
   },
   {
-    name: "Bandcamp",
-    url: "https://blodsic.bandcamp.com/",
-    icon: SiBandcamp,
+    name: "Apple Music",
+    url: "https://music.apple.com/nz/artist/blod-sic/1632780047",
+    icon: SiApplemusic,
   },
   {
     name: "SoundCloud",
     url: "https://soundcloud.com/blod-sic",
     icon: SiSoundcloud,
-  },
-  {
-    name: "Apple Music",
-    url: "https://music.apple.com/nz/artist/blod-sic/1632780047",
-    icon: SiApplemusic,
   },
   {
     name: "Bluesky",
@@ -64,7 +64,7 @@ export default function SocialButtons() {
     <div className="flex flex-row gap-4 flex-wrap">
       {socials.map((s) => (
         <a key={s.name} href={s.url} target="_blank">
-          {s.icon({ size: 24, "aria-label": s.name })}
+          {s.icon({ size: 24, title: s.name })}
         </a>
       ))}
     </div>
