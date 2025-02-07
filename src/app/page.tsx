@@ -16,6 +16,7 @@ export default function Home() {
       <HeroSection />
       <DivisionOutNowSection />
       <SpotifyPlayerSection />
+      <Divider />
       <DiscographySection />
       <Divider />
       <MusicVideosSection />
