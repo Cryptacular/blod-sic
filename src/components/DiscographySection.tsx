@@ -19,7 +19,7 @@ export default function DiscographySection() {
                 key={a.name}
                 className="flex flex-col gap-4 items-center justify-start"
               >
-                <a href={a.urls.spotify} target="_blank">
+                <a href={a.urls.bandcamp} target="_blank">
                   <Image
                     src={a.thumbnailUrl}
                     width={336 / 2}
