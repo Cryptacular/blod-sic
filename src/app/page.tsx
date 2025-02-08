@@ -5,7 +5,7 @@ import Divider from "@/components/Divider";
 import DiscographySection from "@/components/DiscographySection";
 import ContactSection from "@/components/ContactSection";
 import DivisionOutNowSection from "@/components/DivisionOutNowSection";
-import SpotifyPlayerSection from "@/components/SpotifyPlayerSection";
+import BandcampSection from "@/components/BandcampSection";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       />
       <HeroSection />
       <DivisionOutNowSection />
-      <SpotifyPlayerSection />
+      <BandcampSection />
       <Divider />
       <DiscographySection />
       <Divider />
