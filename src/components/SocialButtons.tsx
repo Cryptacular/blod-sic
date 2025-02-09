@@ -44,7 +44,7 @@ const socials: SocialProps[] = [
   },
   {
     name: "Bluesky",
-    url: "https://bsky.app/profile/blodsic.bsky.social",
+    url: "https://bsky.app/profile/blodsic.com",
     icon: SiBluesky,
   },
   {
