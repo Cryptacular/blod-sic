@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ResponsiveContainer from "./ResponsiveContainer";
 import Link from "next/link";
+import { breeSerif } from "@/utils/fonts";
 
 interface Props {
   menuItems: string[];
@@ -12,7 +13,9 @@ export default function Navigation({ menuItems }: Props) {
       <ResponsiveContainer>
         <div className="flex flex-row items-center justify-center md:justify-between">
           <Link href="/">
-            <h1 className="flex flex-row gap-4 items-center">
+            <h1
+              className={`flex flex-row gap-4 items-center text-xl ${breeSerif.className}`}
+            >
               <Image
                 src="/images/blod-sic-logo-white.svg"
                 alt=""

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ResponsiveContainer from "./ResponsiveContainer";
 import SocialButtons from "./SocialButtons";
+import { breeSerif } from "@/utils/fonts";
 
 export default function HeroSection() {
   return (
@@ -8,7 +9,9 @@ export default function HeroSection() {
       <ResponsiveContainer>
         <div className="flex w-full flex-col md:flex-row gap-10 items-center justify-between text-center md:text-left">
           <div className="flex flex-col gap-6">
-            <h1 className="text-6xl font-bold">blod [sic]</h1>
+            <h1 className={`text-6xl font-bold ${breeSerif.className}`}>
+              blod [sic]
+            </h1>
             <p className="text-2xl">
               horrorwave | dark electronica | ghostwave
             </p>

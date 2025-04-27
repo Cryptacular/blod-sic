@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
-import { Jost } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 import { Suspense } from "react";
 import GoogleTagManager from "@/components/analytics/GoogleTagManager";
-
-const jost = Jost({ subsets: ["latin"] });
+import { montserrat } from "@/utils/fonts";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://blodsic.com"),
@@ -49,7 +47,7 @@ export default function RootLayout({
           <GoogleTagManager />
         </Suspense>
       </head>
-      <body className={`${jost.className} bg-background text-foreground`}>
+      <body className={`${montserrat.className} bg-background text-foreground`}>
         <main className="flex flex-1 min-h-screen flex-col items-stretch">
           {children}
         </main>
