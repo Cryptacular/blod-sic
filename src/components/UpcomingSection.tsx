@@ -8,25 +8,25 @@ export default function UpcomingSection() {
       <ResponsiveContainer>
         <div className="flex flex-col gap-16">
           <h2 className="text-4xl text-center font-bold">
-            <a id="division" />
-            new EP ‘division’ out soon!
+            <a id="the-space-between" />
+            new album ‘the space between’ out soon!
           </h2>
 
           <div className="flex flex-col md:flex-row gap-16 items-center justify-around">
-            <div className="flex flex-col gap-6 max-w-96">
+            <div className="flex flex-col gap-6 max-w-96 text-xl">
               <p>
-                <em>division</em> releases on Friday 13 December 2024. A journey
-                through a dark web of lies, ritual and transformation.
+                <strong>the space between</strong> is <em>blod [sic]</em>’s
+                first full-length album, exploring what’s hidden amongst the
+                horrors in the sky.
               </p>
               <p className="font-bold">
-                Preorder <em>division</em> now and enjoy this 3-track EP,
-                ideally in the dark with some good headphones.
+                Sign up on Bandcamp to be notified when preorders open!
               </p>
             </div>
 
             <Image
-              src="/images/albums/division.png"
-              alt="division artwork"
+              src="/images/albums/the-space-between.png"
+              alt="the space between artwork"
               width={272}
               height={272}
               className="border-solid border-16 border-background"
@@ -37,9 +37,9 @@ export default function UpcomingSection() {
             <Button
               variant="dark"
               target="_blank"
-              href="https://blodsic.bandcamp.com/album/division"
+              href="https://blodsic.bandcamp.com/follow_me"
             >
-              preorder on Bandcamp!
+              Follow blod [sic] on Bandcamp!
             </Button>
           </div>
         </div>

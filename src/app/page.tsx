@@ -4,17 +4,22 @@ import MusicVideosSection from "@/components/MusicVideosSection";
 import Divider from "@/components/Divider";
 import DiscographySection from "@/components/DiscographySection";
 import ContactSection from "@/components/ContactSection";
-import DivisionOutNowSection from "@/components/DivisionOutNowSection";
 import BandcampSection from "@/components/BandcampSection";
+import UpcomingSection from "@/components/UpcomingSection";
 
 export default function Home() {
   return (
     <>
       <Navigation
-        menuItems={["division", "discography", "music videos", "contact"]}
+        menuItems={[
+          "the space between",
+          "discography",
+          "music videos",
+          "contact",
+        ]}
       />
       <HeroSection />
-      <DivisionOutNowSection />
+      <UpcomingSection />
       <BandcampSection />
       <Divider />
       <DiscographySection />

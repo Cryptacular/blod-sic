@@ -2,6 +2,12 @@ import { Album } from "@/models/Album";
 
 const albums: Album[] = [
   {
+    id: "thespacebetween",
+    name: "the space between",
+    urls: {},
+    thumbnailUrl: "/images/albums/the-space-between.png",
+  },
+  {
     id: "division",
     name: "division",
     urls: {
