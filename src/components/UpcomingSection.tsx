@@ -15,10 +15,13 @@ export default function UpcomingSection() {
           <div className="flex flex-col md:flex-row gap-16 items-center justify-around">
             <div className="flex flex-col gap-6 max-w-96 text-xl">
               <p>
-                <strong>the space between</strong> is <em>blod [sic]</em>’s
-                first full-length album, exploring what’s hidden amongst the
-                horrors in the sky.
+                The Space Between by <em>blod [sic]</em> explores the vast empty
+                space, the silence in the void, the sounds in that silence. Let
+                these five instrumental tracks take you through these liminal,
+                haunting spaces and soak in the haunting soundscape while you
+                sink deeper into your subconscious.
               </p>
+
               <p className="font-bold">
                 Sign up on Bandcamp to be notified when preorders open!
               </p>
