@@ -22,9 +22,7 @@ export default function UpcomingSection() {
                 sink deeper into your subconscious.
               </p>
 
-              <p className="font-bold">
-                Sign up on Bandcamp to be notified when preorders open!
-              </p>
+              <p className="font-bold">Preorders are open now!</p>
             </div>
 
             <Image
@@ -40,9 +38,9 @@ export default function UpcomingSection() {
             <Button
               variant="dark"
               target="_blank"
-              href="https://blodsic.bandcamp.com/follow_me"
+              href="https://blodsic.bandcamp.com/album/the-space-between"
             >
-              Follow blod [sic] on Bandcamp!
+              Preorder The Space Between
             </Button>
           </div>
         </div>

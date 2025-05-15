@@ -5,7 +5,7 @@ import Divider from "@/components/Divider";
 import MusicVideosSection from "@/components/MusicVideosSection";
 import Navigation from "@/components/Navigation";
 import AboutBlodSicSection from "@/components/electronic-press-kit/AboutBlodSicSection";
-import DivisionOutNowSection from "@/components/DivisionOutNowSection";
+import UpcomingSection from "@/components/UpcomingSection";
 
 export const metadata: Metadata = {
   title: "blod [sic] — electronic press kit",
@@ -28,7 +28,7 @@ export default function Home() {
         ]}
       />
       <AboutBlodSicSection />
-      <DivisionOutNowSection />
+      <UpcomingSection />
       <DiscographySection />
       <Divider />
       <MusicVideosSection />

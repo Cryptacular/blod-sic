@@ -4,7 +4,9 @@ const albums: Album[] = [
   {
     id: "thespacebetween",
     name: "the space between",
-    urls: {},
+    urls: {
+      bandcamp: "https://blodsic.bandcamp.com/album/the-space-between",
+    },
     thumbnailUrl: "/images/albums/the-space-between.png",
   },
   {
