@@ -16,7 +16,7 @@ export default function MusicVideosSection() {
             {musicVideos.map((mv) => (
               <div
                 key={mv.name}
-                className="flex flex-col gap-4 items-center justify-start"
+                className="flex flex-col gap-4 items-center justify-start text-center"
               >
                 <a href={mv.url} target="_blank">
                   <Image

@@ -2,6 +2,11 @@ import { MusicVideo } from "@/models/MusicVideo";
 
 const musicVideos: MusicVideo[] = [
   {
+    name: "stalling engines",
+    url: "https://www.youtube.com/watch?v=PNgXC8ZkbQQ",
+    thumbnailUrl: "/images/videos/stalling-engines.png",
+  },
+  {
     name: "division (full EP)",
     url: "https://www.youtube.com/watch?v=tgAU2Vk7b4s",
     thumbnailUrl: "/images/videos/division.jpg",
