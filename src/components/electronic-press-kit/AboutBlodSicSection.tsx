@@ -20,26 +20,27 @@ export default function HeroSection() {
           <div className="flex w-full flex-col md:flex-row gap-10 items-center justify-between text-center md:text-left">
             <div className="flex flex-col gap-6">
               <p>
-                blod [sic] is a one-person electronic musician based out of
+                blod [sic] is a one-person electronic band based out of
                 Auckland, New Zealand. Under this artist name, Nick (they/them)
-                creates haunting music, often inspired by the electronic pop
-                music of the previous century mixed with video game influences -
-                both retro and current. “Think electronica or lo-fi with a dash
-                of horror, or sometimes horror with a dash of lo-fi. Add a
-                sprinkling of retro on top and you’ve got it.”
+                creates dark ambient music, inspired by cosmic horror, liminal
+                spaces and video game music - both retro and current. “Think
+                lo-fi with a dash of horror, or sometimes horror with a dash of
+                lo-fi. Add a sprinkling of retro on top and you’ve got it.” They
+                enjoy using conventional instruments like bass guitar in unusual
+                ways and building vast soundscapes using synthesizers.
               </p>
 
               <p>
                 When younger, Nick played saxophone, guitar and bass but got
                 distracted from creating music for a while. After moving to New
                 Zealand, getting married and having a daughter, music production
-                on portable hardware became a new passion.
+                became a new passion.
               </p>
 
               <p>
                 Nick would love to collaborate on any projects you might be
-                working on that need a memorable soundtrack, especially film and
-                games.{" "}
+                working on that need a memorable soundtrack, especially games
+                and film.{" "}
                 <Link className="underline font-bold" href="#contact">
                   Flick me a message
                 </Link>
