@@ -9,7 +9,7 @@ export default function UpcomingSection() {
         <div className="flex flex-col gap-16">
           <h2 className="text-4xl text-center font-bold">
             <a id="the-space-between" />
-            new album ‘the space between’ out soon!
+            new album ‘the space between’ out now!
           </h2>
 
           <div className="flex flex-col md:flex-row gap-16 items-center justify-around">
@@ -22,7 +22,7 @@ export default function UpcomingSection() {
                 sink deeper into your subconscious.
               </p>
 
-              <p className="font-bold">Preorders are open now!</p>
+              <p className="font-bold">Album available now!</p>
             </div>
 
             <Image
@@ -40,7 +40,7 @@ export default function UpcomingSection() {
               target="_blank"
               href="https://blodsic.bandcamp.com/album/the-space-between"
             >
-              Preorder The Space Between
+              Check out The Space Between
             </Button>
           </div>
         </div>
