@@ -6,6 +6,11 @@ const albums: Album[] = [
     name: "the space between",
     urls: {
       bandcamp: "https://blodsic.bandcamp.com/album/the-space-between",
+      spotify: "https://open.spotify.com/album/3ODGoSyHQ47RcgkCvVZ7F1?si=UpPhEPnRRWqVMiycZI2VHA",
+      ytMusic: "https://music.youtube.com/playlist?list=OLAK5uy_no0jP8zAVYIzt6jiLVAW_dH_bd7hxkn_s&si=Ppb-kJ73ZSeRSS1T",
+      youtube: "https://www.youtube.com/playlist?list=PLbAtze7p4-nWUmKTeTOvK2K8HXfYoF5ke",
+      appleMusic: "https://music.apple.com/us/album/the-space-between/1813770664",
+      soundcloud: "https://soundcloud.com/blod-sic/stalling-engines?si=0c58705bbf504b48ae50b1d86ede69e9&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
     },
     thumbnailUrl: "/images/albums/the-space-between.png",
   },
