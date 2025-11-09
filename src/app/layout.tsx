@@ -8,9 +8,9 @@ import { montserrat } from "@/utils/fonts";
 export const metadata: Metadata = {
   metadataBase: new URL("https://blodsic.com"),
   title:
-    "blod [sic] — dark lo-fi, horrorwave, ghostwave, dark electronica — auckland, new zealand",
+    "blod [sic] — dark ambient, experimental electronic music — Auckland, New Zealand",
   description:
-    "Electronic artist 'blod [sic]' based out of Auckland, New Zealand — explore their singles, EPs, albums and music videos.",
+    "Electronic musician 'blod [sic]' based out of Auckland, New Zealand — explore their singles, EPs, albums and music videos.",
 };
 
 export default function RootLayout({

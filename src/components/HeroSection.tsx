@@ -13,9 +13,9 @@ export default function HeroSection() {
               blod [sic]
             </h1>
             <p className="text-2xl">
-              horrorwave | dark electronica | ghostwave
+              dark ambient | experimental electronic music
             </p>
-            <p className="text-2xl">auckland, new zealand</p>
+            <p className="text-xl lowercase">Auckland, New Zealand</p>
             <div className="flex justify-center md:justify-start">
               <SocialButtons />
             </div>
@@ -23,7 +23,7 @@ export default function HeroSection() {
 
           <Image
             src="/images/profile.png"
-            alt="blod [sic] profile"
+            alt="blod [sic]'s profile photo"
             width={272}
             height={272}
             className="border-solid border-16 border-foreground"
