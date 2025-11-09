@@ -7,7 +7,7 @@ const albums: Album[] = [
     urls: {
       bandcamp: "https://blodsic.bandcamp.com/album/phlebotomy-ii",
     },
-    thumbnailUrl: "/images/albums/phlebotomy-ii.jpg",
+    thumbnailUrl: "/images/albums/phlebotomy-II.jpg",
   },
   {
     id: "phlebotomyi",
@@ -15,7 +15,7 @@ const albums: Album[] = [
     urls: {
       bandcamp: "https://blodsic.bandcamp.com/album/phlebotomy-i",
     },
-    thumbnailUrl: "/images/albums/phlebotomy-i.jpg",
+    thumbnailUrl: "/images/albums/phlebotomy-I.jpg",
   },
   {
     id: "thespacebetween",
