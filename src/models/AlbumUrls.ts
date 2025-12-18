@@ -1,5 +1,5 @@
 export interface AlbumUrls {
-  bandcamp?: string;
+  bandcamp: string;
   spotify?: string;
   ytMusic?: string;
   appleMusic?: string;
