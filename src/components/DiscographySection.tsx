@@ -2,6 +2,7 @@ import Image from "next/image";
 import ResponsiveContainer from "./ResponsiveContainer";
 import AlbumIconLinks from "./AlbumIconLinks";
 import albums from "@/data/albums";
+import SocialButtons from "./SocialButtons";
 
 export default function DiscographySection() {
   return (
@@ -12,6 +13,8 @@ export default function DiscographySection() {
             <a id="discography" />
             discography
           </h2>
+
+          <SocialButtons type="music" />
 
           <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4  gap-16">
             {albums.map((a) => (
