@@ -9,8 +9,8 @@ export default function BandcampSection() {
         <div className="flex w-full flex-col-reverse md:flex-row gap-10 items-center justify-between text-center">
           <BandcampEmbeddedPlayer />
           <a href="https://blodsic.bandcamp.com/follow_me" target="_blank">
-            <span className="flex flex-row items-center gap-6 text-3xl font-bold">
-              <SiBandcamp size={48} />
+            <span className="text-3xl font-bold">
+              <SiBandcamp size={48} className="inline-flex mr-6 mb-2" />
               <span>Follow blod [sic] on Bandcamp</span>{" "}
             </span>
           </a>
