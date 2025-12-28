@@ -6,6 +6,12 @@ const albums: Album[] = [
     name: "phlebotomy II",
     urls: {
       bandcamp: "https://blodsic.bandcamp.com/album/phlebotomy-ii",
+      spotify:
+        "https://open.spotify.com/album/2jyIsDg0ThRpPogVX8laTi?si=yXzdMKNQQH-Py2JH1hkEpw",
+      ytMusic:
+        "https://music.youtube.com/playlist?list=OLAK5uy_lA6CdvPfRix9I6P2x0_pVRw4ChWSCMhG4&si=1n4c9xCZHTplKWKC",
+      youtube:
+        "https://youtube.com/playlist?list=OLAK5uy_mHc2mPzetkMVlpSREL7q5iupACtt4Nb6g&si=QZ8GBqQpwZ-3U-pn",
     },
     thumbnailUrl: "/images/albums/phlebotomy-II.jpg",
   },
