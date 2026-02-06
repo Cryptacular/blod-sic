@@ -2,6 +2,22 @@ import { Album } from "@/models/Album";
 
 const albums: Album[] = [
   {
+    id: "palewyrm",
+    name: "pale wyrm",
+    urls: {
+      bandcamp: "https://blodsic.bandcamp.com/track/pale-wyrm",
+      spotify:
+        "https://open.spotify.com/album/4dLSd6j4jAv1OKVSt0yvnJ?si=7xJrK5CVQAWzt9Y1TTDVtw",
+      ytMusic:
+        "https://music.youtube.com/playlist?list=OLAK5uy_mCtnsa3Cb2KnTCBpSBtwKReRr4FnWkkYw&si=aDayjqyewrpvjr3C",
+      appleMusic:
+        "https://music.apple.com/nz/album/pale-wyrm-single/1872862731",
+      youtube:
+        "https://www.youtube.com/watch?v=BkRVXc9Ofgw&list=OLAK5uy_nTxz5LyWt8nasIeMpxiXKbsz9zoUpApso",
+    },
+    thumbnailUrl: "/images/albums/pale-wyrm.jpg",
+  },
+  {
     id: "phlebotomyii",
     name: "phlebotomy II",
     urls: {
