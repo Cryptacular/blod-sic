@@ -2,6 +2,12 @@ import { Album } from "@/models/Album";
 
 const albums: Album[] = [
   {
+    id: "raven",
+    name: "raven",
+    urls: { bandcamp: "https://blodsic.bandcamp.com/album/raven" },
+    thumbnailUrl: "/images/albums/raven.png"
+  },
+  {
     id: "palewyrm",
     name: "pale wyrm",
     urls: {
